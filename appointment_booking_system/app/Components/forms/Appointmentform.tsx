@@ -3,6 +3,7 @@
 import{useState, useEffect} from 'react'
 import { motion } from "framer-motion"
 import {FiUser, FiPhone, FiMail, FiCalendar, FiClock} from 'react-icons/fi'
+import assets from '../assets/assets'
 
 export default function AppoinemtForm(){
     const[formData, setFormData] = useState({
