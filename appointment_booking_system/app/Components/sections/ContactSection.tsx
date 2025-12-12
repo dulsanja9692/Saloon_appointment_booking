@@ -17,7 +17,7 @@ export default function ContactSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div>
-            <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-velora-pink to-velora-cyan bg-clip-text text-transparent">
+            <h2 className="text-4xl font-bold mb-6 bg-gradien-to-r from-velora-pink to-velora-cyan bg-clip-text text-transparent">
               Contact Us
             </h2>
             
@@ -109,16 +109,16 @@ export default function ContactSection() {
           </div>
 
           {/* Map Placeholder */}
-          <div className="bg-gradient-to-br from-velora-secondary/80 to-velora-primary/80 rounded-2xl p-8 border border-white/10">
+          <div className="bg-gradien-to-br from-velora-secondary/80 to-velora-primary/80 rounded-2xl p-8 border border-white/10">
             <h3 className="text-2xl font-bold mb-6">Our Location</h3>
-            <div className="aspect-video bg-gradient-to-br from-velora-purple/20 to-velora-pink/20 rounded-xl flex items-center justify-center">
+            <div className="aspect-video bg-gradien-to-br from-velora-purple/20 to-velora-pink/20 rounded-xl flex items-center justify-center">
               <div className="text-center">
                 <div className="text-4xl mb-4">📍</div>
                 <p className="text-gray-300">{salonInfo.contact.address}</p>
                 <p className="text-gray-400 text-sm mt-2">Galle, Sri Lanka</p>
               </div>
             </div>
-            <div className="mt-6 p-4 bg-gradient-to-r from-velora-cyan/10 to-velora-green/10 rounded-xl">
+            <div className="mt-6 p-4 bg-gradien-to-r from-velora-cyan/10 to-velora-green/10 rounded-xl">
               <p className="text-center">
                 <span className="font-bold">Easy to find!</span>
                 <span className="text-gray-300 ml-2">Located on Main Road, Galle</span>

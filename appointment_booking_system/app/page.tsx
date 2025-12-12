@@ -2,8 +2,11 @@
 
 import { motion } from 'framer-motion'
 import Navbar from './Components/layout/Navbar'
-import assets from '@/public/assets/assets.js'
 import AppointmentForm from './Components/forms/AppointmentForm'
+import ServicesSection from './Components/sections/ServicesSection'
+import TeamSection from './Components/sections/TeamSection'
+import ContactSection from './Components/sections/ContactSection'
+import assets from '@/public/assets/assets.js'
 
 export default function Home() {
   const { salonInfo } = assets
@@ -49,6 +52,15 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Services Section */}
+        <ServicesSection />
+
+        {/* Team Section */}
+        <TeamSection />
+
+        {/* Contact Section */}
+        <ContactSection />
 
         {/* Footer */}
         <footer className="py-12 border-t border-white/10 bg-velora-primary">
